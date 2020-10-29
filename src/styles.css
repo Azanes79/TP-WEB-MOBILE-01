@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+.font-gobold {
+    font-family: 'Gobold',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-dir-col {
+    flex-direction: column;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-template-column-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.column-2 {
+    grid-column: 2;
+}
+
+.column-3 {
+    grid-column: 3;
+}
+
+@font-face {
+    font-family: 'Gobold';
+    font-style: normal;
+    src: url('./assets/font/Gobold_Extra1.otf')
+}

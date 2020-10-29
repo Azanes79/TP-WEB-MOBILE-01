@@ -1,0 +1,55 @@
+.header {
+    background-color: #3c6ec6;
+    /* height: 390px; */
+}
+
+.header-link {
+    background-color: #f21031;
+    height: 55px;
+    gap: 20px;
+    
+}
+
+.nav {
+    font-size: 23px;
+    color: white;
+    margin: 20px 0;
+    animation: fadeIn ease 2s;
+
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.nav div {
+    padding: 0 11px;
+    border-right: 4px solid black;
+    
+}
+
+.nav div:hover {
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 300ms ease 0ms;
+    cursor: pointer;
+}
+
+.div-first:hover {
+    color: rgba(242,16,49, 0.7) !important;
+    transition: all 300ms ease 0ms;
+    cursor: pointer;
+}
+
+.div-first {
+    color: rgb(242, 16, 49);
+}
+
+.div-end {
+    border-right: 0 !important;
+}
+
+i {
+    color: #2b0000;
+    font-size: 25px;
+}
